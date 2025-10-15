@@ -12,7 +12,7 @@ class WineTastingAPI {
             this.baseURL = 'https://winetasting-app.onrender.com/api';
         } else if (hostname.includes('netlify.app')) {
             // Production Netlify avec tunnel local
-            this.baseURL = 'https://spotty-insect-31.loca.lt/api';
+            this.baseURL = 'https://nonperceivably-livelier-jase.ngrok-free.dev/api';
         } else {
             // Fallback vers l'IP réseau local
             this.baseURL = `http://${hostname}:3000/api`;
